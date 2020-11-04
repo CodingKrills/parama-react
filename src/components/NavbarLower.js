@@ -29,6 +29,13 @@ export default function NavbarLower() {
                         <Nav.Link><Link to="/about" >About</Link></Nav.Link>
                         <Nav.Link><Link to="/contact" >Contact</Link></Nav.Link>
                         <Nav.Link>Contact</Nav.Link>
+                        <NavDropdown title="Dropdown1" id="basic-nav-dropdown1">
+                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        </NavDropdown>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

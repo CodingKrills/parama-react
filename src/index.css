@@ -2,6 +2,23 @@ body {
   margin: 0;
 }
 
+.css-1s1fk1f{
+  -webkit-animation: animation-1bo129d 45s linear infinite;
+  animation: animation-1bo129d 10s linear infinite;
+  overflow: hidden;
+  height: 20px;
+  position: relative;
+  height: 25px;
+  /* top:0; */
+  /* width: 400px; */
+}
+
+@keyframes animation-1bo129d {
+  0%   {margin-left:300px;}
+  100% {margin-left:-340px;}
+}
+
 .top_bar{
-  
+  background-color: black;
+  padding: 2px;
 }
