@@ -1,6 +1,10 @@
-import React, { Componet } from "react";
+import React, { Component } from "react";
 
-export default class FooterUpper extends Componet {
+
+var apple= 'https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/appleStore.png';
+
+
+export default class FooterUpper extends Component {
     render() {
         return (
             <>
@@ -9,8 +13,9 @@ export default class FooterUpper extends Componet {
                         <div className="col-4">
                             <p className="text-white font-weight-bold">DOWNLOAD OUR APP</p>
                             <div className="d-flex"><a className="dl-anc" aria-label="Google Play Store"
-                                href="https://play.google.com/store/apps/details?id=com.fsn.nds" rel="noopener"
-                                target="_blank">
+                                // href="https://play.google.com/store/apps/details?id=com.fsn.nds" rel="noopener"
+                                // target="_blank"
+                                >
                                 <div className="">
                                     <img className="download-app-img css-1mbq8mn e1jjwn40"
                                         src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/googlePlay.png"
@@ -18,11 +23,12 @@ export default class FooterUpper extends Componet {
                                 </div>
                             </a>
                                 <a className="dl-anc" aria-label="Apple App Store"
-                                    href="https://itunes.apple.com/in/app/nykaa-design-studio/id1439872423?mt=8" rel="noopener"
-                                    target="_blank">
+                                    // href="https://itunes.apple.com/in/app/nykaa-design-studio/id1439872423?mt=8" rel="noopener"
+                                    // target="_blank"
+                                    >
                                     <div className="pl-4">
                                         <img className="download-app-img css-1mbq8mn e1jjwn40"
-                                            src="https://adn-static1.nykaa.com/nykdesignstudio-images/tr:h-66,/pub/media/wysiwyg/homepagemiddle/appleStore.png"
+                                            src={apple}
                                             height="33" width="112" loading="lazy" alt="Apple App Store" />
                                     </div>
                                 </a>
