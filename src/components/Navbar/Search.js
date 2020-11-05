@@ -1,10 +1,12 @@
 import React from 'react'
+import Catagory from './Catagory'
 
 export default function Search() {
     return (
         <>
             <div className="input-group-overlay d-flex py-2">
                 <div className="input-group-prepend border rounded-left">
+                    <Catagory />
                     {/*<div ngbDropdown className="d-inline-block">
                 <button className="btn h-100" id="dropdownBasic1" ngbDropdownToggle>
                     <div className="d-flex">
