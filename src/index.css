@@ -76,3 +76,42 @@ input:focus{
   box-shadow: none !important;
   border-color: #fff !important;
 }
+
+
+.Parama_Fashion {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  color:rgb(211, 26, 26);
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+
+.ID44990513_3151436744898408_84 {
+  width: 65px;
+  height: 63px;
+  /* left: 0px; */
+  /* top: 9px; */
+  /* overflow: visible; */
+}
+
+.Looking_Beautiful_Everyday_ {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(51,102,103,1);
+  margin-bottom: 0;
+}
+
+.search-icon {
+  border-top-right-radius: .25rem!important;
+  border-bottom-right-radius: .25rem!important;
+  border-top-left-radius: 0!important;
+  border-bottom-left-radius: 0!important;
+  background-color: #336667 !important;
+  color: #fff;
+  height: 63px;
+  padding-left: 10px;
+  padding-right: 15px;
+}

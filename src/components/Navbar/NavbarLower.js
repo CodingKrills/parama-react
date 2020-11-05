@@ -10,9 +10,9 @@ import { Navbar, NavDropdown, Nav } from 'react-bootstrap'
 
 import EmailLogin from '../EmailLogin';
 
-import { ModelComp } from "./Model";
+// import { ModelComp } from "./Model";
 
-const [modalShow, setModalShow] = React.useState(false);
+// const [modalShow, setModalShow] = React.useState(false);
 
 export default function NavbarLower() {
 
@@ -53,14 +53,14 @@ export default function NavbarLower() {
                             <NavDropdown.Item as="button">Coupons & Wallet</NavDropdown.Item>
                             <NavDropdown.Item as="button">My Mesurement</NavDropdown.Item>
                             <NavDropdown.Item as="button">
-                                <Button variant="primary" onClick={() => setModalShow(true)}>
+                                {/*<Button variant="primary" onClick={() => setModalShow(true)}>
                                     Launch vertically centered modal
                                 </Button>
 
                                 <ModelComp
                                     show={modalShow}
                                     onHide={() => setModalShow(false)}
-                                />
+                                />*/}
                             </NavDropdown.Item>
                             {/* FORM */}
                             <EmailLogin />

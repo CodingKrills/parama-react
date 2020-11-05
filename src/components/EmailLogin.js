@@ -18,6 +18,10 @@ export default function EmailLogin() {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => console.log(data);
 
+    function formSubmit() {
+        console.log('form.submit')
+    }
+
 
     // axios({
     //     method: 'post',
@@ -51,7 +55,7 @@ export default function EmailLogin() {
                                 <Form.Check type="checkbox" label="Check me out" />
                             </Form.Group>
 
-                            <Button variant="primary" type="submit">
+                            <Button variant="primary" type="submit" onClick={formSubmit}>
                                 Submit
                             </Button>
                         </form>
