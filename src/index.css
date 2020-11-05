@@ -22,3 +22,57 @@ body {
   background-color: black;
   padding: 2px;
 }
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.lk-itm a{
+  color: #000;
+}
+
+.lk-itm a:hover{
+  text-decoration: none;
+}
+
+.lk-section-2 {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+}
+
+.lk-list {
+  max-height: 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -webkit-flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.css-b2v7g5 {
+  font-size: 0.85rem;
+}
+
+.css-b9lsdq{
+  background-color:rgb(211, 26, 26);
+  text-align: center;
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 10px;
+}
+
+
+input:focus{
+  box-shadow: none !important;
+  border-color: #fff !important;
+}

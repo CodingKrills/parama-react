@@ -37,10 +37,10 @@ export default class FooterUpper extends Component {
                         <div className="col-4">
                             <p className="text-white font-weight-bold text-center">SUBSCRIBE TO NEWSLETTER</p>
                             <div className="">
-                                {/*<form className="d-flex"><input className="form-control bg-transparent rounded-0"
-                                placeholder="enter your email" aria-label="enter your email"><button
+                                <form className="d-flex"><input className="form-control bg-transparent rounded-0"
+                                placeholder="enter your email" aria-label="enter your email"  /><button
                                 className="btn bg-transparent border rounded-0 text-secondary">Submit</button>
-                            </form> */}
+                                </form>
                             </div>
                         </div>
                         <div className="col-4">

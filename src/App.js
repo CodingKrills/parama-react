@@ -7,13 +7,14 @@ import {
 } from "react-router-dom";
 
 // Components
-import NavLower from './components/NavbarLower'
+import NavLower from './components/Navbar/NavbarLower'
 import TopBar from './components/TopBar'
 
 //Pages
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import NavbarUpper from './components/Navbar/NavbarUpper';
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
 
 
         <TopBar/>
+        <NavbarUpper/>
         <NavLower/>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

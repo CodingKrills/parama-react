@@ -15,6 +15,7 @@ export default class AxiosComp extends Component {
         axios.get('http://www.api.paramafashion.com/api/get_main_banner')
           .then(res => {
             const persons = res.data;
+            console.log(res)
             this.setState({ persons });
           })
       }

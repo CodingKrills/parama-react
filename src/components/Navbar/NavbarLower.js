@@ -8,12 +8,13 @@ import {
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap'
 
 
-import EmailLogin from './EmailLogin';
+import EmailLogin from '../EmailLogin';
 
+import { ModelComp } from "./Model";
+
+const [modalShow, setModalShow] = React.useState(false);
 
 export default function NavbarLower() {
-
-
 
 
     return (
@@ -47,6 +48,20 @@ export default function NavbarLower() {
 
                     <Nav className="mr-auto">
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                            <NavDropdown.Item as="button">My Orders</NavDropdown.Item>
+                            <NavDropdown.Item as="button">Wishlist</NavDropdown.Item>
+                            <NavDropdown.Item as="button">Coupons & Wallet</NavDropdown.Item>
+                            <NavDropdown.Item as="button">My Mesurement</NavDropdown.Item>
+                            <NavDropdown.Item as="button">
+                                <Button variant="primary" onClick={() => setModalShow(true)}>
+                                    Launch vertically centered modal
+                                </Button>
+
+                                <ModelComp
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
+                                />
+                            </NavDropdown.Item>
                             {/* FORM */}
                             <EmailLogin />
 
