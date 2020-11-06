@@ -8,7 +8,7 @@ import {
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap'
 
 
-import EmailLogin from '../EmailLogin';
+import SignUpModal from './SignUpModal'
 
 // import { ModelComp } from "./Model";
 
@@ -63,7 +63,8 @@ export default function NavbarLower() {
                                 />*/}
                             </NavDropdown.Item>
                             {/* FORM */}
-                            <EmailLogin />
+                            {/* <EmailLogin /> */}
+                                <SignUpModal></SignUpModal>
 
                         </NavDropdown>
                     </Nav>

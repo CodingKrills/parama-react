@@ -16,7 +16,7 @@ export default class HeroCarosel extends Component {
                     <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100"
-                            src="https://cdn.abetterlemonadestand.com/wp-content/uploads/2018/11/Print-on-Demand-Product-Ideas-for-Ecommerce.jpg"
+                            src="https://i.pinimg.com/originals/bb/6e/df/bb6edf8a1583d517b601f773b67efe32.jpg"
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -27,7 +27,7 @@ export default class HeroCarosel extends Component {
                     <Carousel.Item interval={500}>
                         <img
                             className="d-block w-100"
-                            src="https://cdn.abetterlemonadestand.com/wp-content/uploads/2018/11/Print-on-Demand-Product-Ideas-for-Ecommerce.jpg"
+                            src="https://i.pinimg.com/originals/bb/6e/df/bb6edf8a1583d517b601f773b67efe32.jpg"
                             alt="Third slide"
                         />
                         <Carousel.Caption>
@@ -38,7 +38,7 @@ export default class HeroCarosel extends Component {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://blog.boxme.asia/wp-content/uploads/2020/08/Print-on-demand-6-1024x465.jpg"
+                            src="https://i.pinimg.com/originals/bb/6e/df/bb6edf8a1583d517b601f773b67efe32.jpg"
                             alt="Third slide"
                         />
                         <Carousel.Caption>

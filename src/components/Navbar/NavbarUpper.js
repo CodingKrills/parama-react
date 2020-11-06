@@ -7,7 +7,7 @@ export default class NavbarUpper extends Component {
     render() {
         return (
             <>
-                <div className="container-fluid">
+                <div className="container" style={{"padding":"0.7rem"}} >
                     <ul className="row">
                         <li className="col-lg-4 col-6 order-0">
                             <Logo />

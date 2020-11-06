@@ -81,7 +81,7 @@ input:focus{
 .Parama_Fashion {
   font-style: normal;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 2em;
   color:rgb(211, 26, 26);
   margin-top: -10px;
   margin-bottom: 0;
@@ -90,6 +90,7 @@ input:focus{
 .ID44990513_3151436744898408_84 {
   width: 65px;
   height: 63px;
+  background-image: url('./assests/logo.png');
   /* left: 0px; */
   /* top: 9px; */
   /* overflow: visible; */
@@ -98,8 +99,8 @@ input:focus{
 .Looking_Beautiful_Everyday_ {
   text-align: center;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 1.2em;
   color: rgba(51,102,103,1);
   margin-bottom: 0;
 }
