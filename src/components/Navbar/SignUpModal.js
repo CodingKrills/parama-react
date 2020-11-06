@@ -11,8 +11,8 @@ export default function SignUpModal() {
   
     return (
       <>
-        <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
+        <Button variant="primary" class="logInOrSignUp btn btn-block" onClick={handleShow}>
+          Log In
         </Button>
   
         <Modal show={show} onHide={handleClose} animation={false}>

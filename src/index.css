@@ -132,3 +132,8 @@ input:focus{
   color: #336667;
 }
 
+.logInOrSignUp{
+  padding: .25rem 1.5rem;
+  text-align: left;
+}
+
